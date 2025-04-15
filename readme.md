@@ -8,11 +8,10 @@ A simple PHP-based tool to create and manage GitHub webhook pipelines for automa
 - Support for different GitHub repositories and branches
 - Secure webhook authentication with secret keys
 - Test deployments from the web interface
-- View deployment history and status
 
 ## Installation
 
-1. Upload the two PHP files (`index.php` and `webhook.php`) to your web server
+1. Upload the two PHP files (`index.php` and `webhook.php`) to your web server inside directory "pipeline-manager"
 2. Create a `pipelines` directory in the same location and ensure it's writable by the web server:
    ```
    mkdir pipelines

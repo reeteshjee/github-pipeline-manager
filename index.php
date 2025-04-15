@@ -166,7 +166,7 @@ function getWebhookUrl($pipelineName) {
                             
                             <div class="mb-3">
                                 <label for="branch_name" class="form-label">Branch Name</label>
-                                <input type="text" class="form-control" id="branch_name" name="branch_name" required value="master">
+                                <input type="text" class="form-control" id="branch_name" name="branch_name" required value="main">
                                 <div class="form-text">Branch to pull from (e.g., master, main, dev).</div>
                             </div>
                             
